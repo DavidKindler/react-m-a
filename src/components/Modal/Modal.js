@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react';
 
-import "./Modal.css";
+import './Modal.css';
 
 const modal = props => {
   const cssClasses = [
-    "Modal",
-    props.show ? "ModalOpen" : "ModalClosed"
+    'Modal',
+    props.show === 'entering' ? 'ModalOpen' : props.show === 'exiting' ? 'ModalClosed' : null
   ];
 
   return (
