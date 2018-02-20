@@ -18,7 +18,7 @@
   /* z-index: 200;
   opacity: 1;
   transform: translateY(0); */
-  animation: openModal 0.3s ease-out forwards;
+  animation: openModal 1s ease-out forwards;
 }
 
 .ModalClosed {
@@ -27,7 +27,7 @@
   opacity: 0;
   transform: translateY(-200%); */
   /* opacity: 0; */
-  animation: closeModal 0.3s ease-out forwards;
+  animation: closeModal 0.2s ease-out forwards;
 }
 
 @keyframes openModal {
